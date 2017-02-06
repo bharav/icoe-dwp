@@ -1,0 +1,12 @@
+{
+  "name": "CI.SP",
+  "version": "1.0.0",
+  "authors": [
+    "Mohit Vaish <mohit.vaish@emc.com>"
+  ],
+  "description": "CI",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT"
+}

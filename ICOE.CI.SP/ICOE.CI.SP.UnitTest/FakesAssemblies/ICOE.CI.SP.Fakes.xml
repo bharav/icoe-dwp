@@ -1,0 +1,2090 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ICOE.CI.SP.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCalc">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.Calc</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.#ctor(ICOE.CI.SP.CodeBase.Calc)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.Constructor">
+            <summary>Sets the shim of Calc.Calc()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.sumInt32Int32">
+            <summary>Sets the shim of Calc.sum(Int32 a, Int32 b)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalc.AllInstances.sumInt32Int32">
+            <summary>Sets the shim of Calc.sum(Int32 a, Int32 b)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.Calculator</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.#ctor(ICOE.CI.SP.CodeBase.Calculator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.AddInt32Int32">
+            <summary>Sets the shim of Calculator.Add(Int32 i, Int32 j)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.Constructor">
+            <summary>Sets the shim of Calculator.Calculator()</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCalculator.AllInstances.AddInt32Int32">
+            <summary>Sets the shim of Calculator.Add(Int32 i, Int32 j)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCity">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.City</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCity.#ctor(ICOE.CI.SP.CodeBase.City)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimCity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.Constructor">
+            <summary>Sets the shim of City.City()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.countryGet">
+            <summary>Sets the shim of City.get_country()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.countrySetString">
+            <summary>Sets the shim of City.set_country(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.nameGet">
+            <summary>Sets the shim of City.get_name()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.nameSetString">
+            <summary>Sets the shim of City.set_name(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimCity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.AllInstances.countryGet">
+            <summary>Sets the shim of City.get_country()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.AllInstances.countrySetString">
+            <summary>Sets the shim of City.set_country(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.AllInstances.nameGet">
+            <summary>Sets the shim of City.get_name()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimCity.AllInstances.nameSetString">
+            <summary>Sets the shim of City.set_name(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimList">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.List</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimList.#ctor(ICOE.CI.SP.CodeBase.List)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.Constructor">
+            <summary>Sets the shim of List.List()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.humidityGet">
+            <summary>Sets the shim of List.get_humidity()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.humiditySetInt32">
+            <summary>Sets the shim of List.set_humidity(Int32 value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.tempGet">
+            <summary>Sets the shim of List.get_temp()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.tempSetTemp">
+            <summary>Sets the shim of List.set_temp(Temp value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.weatherGet">
+            <summary>Sets the shim of List.get_weather()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.weatherSetListOfWeather">
+            <summary>Sets the shim of List.set_weather(List`1&lt;Weather&gt; value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.humidityGet">
+            <summary>Sets the shim of List.get_humidity()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.humiditySetInt32">
+            <summary>Sets the shim of List.set_humidity(Int32 value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.tempGet">
+            <summary>Sets the shim of List.get_temp()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.tempSetTemp">
+            <summary>Sets the shim of List.set_temp(Temp value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.weatherGet">
+            <summary>Sets the shim of List.get_weather()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimList.AllInstances.weatherSetListOfWeather">
+            <summary>Sets the shim of List.set_weather(List`1&lt;Weather&gt; value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimTemp">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.Temp</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.#ctor(ICOE.CI.SP.CodeBase.Temp)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.Constructor">
+            <summary>Sets the shim of Temp.Temp()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.dayGet">
+            <summary>Sets the shim of Temp.get_day()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.daySetDouble">
+            <summary>Sets the shim of Temp.set_day(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.maxGet">
+            <summary>Sets the shim of Temp.get_max()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.maxSetDouble">
+            <summary>Sets the shim of Temp.set_max(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.minGet">
+            <summary>Sets the shim of Temp.get_min()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.minSetDouble">
+            <summary>Sets the shim of Temp.set_min(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.nightGet">
+            <summary>Sets the shim of Temp.get_night()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.nightSetDouble">
+            <summary>Sets the shim of Temp.set_night(Double value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.dayGet">
+            <summary>Sets the shim of Temp.get_day()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.daySetDouble">
+            <summary>Sets the shim of Temp.set_day(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.maxGet">
+            <summary>Sets the shim of Temp.get_max()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.maxSetDouble">
+            <summary>Sets the shim of Temp.set_max(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.minGet">
+            <summary>Sets the shim of Temp.get_min()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.minSetDouble">
+            <summary>Sets the shim of Temp.set_min(Double value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.nightGet">
+            <summary>Sets the shim of Temp.get_night()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimTemp.AllInstances.nightSetDouble">
+            <summary>Sets the shim of Temp.set_night(Double value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeather">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.Weather</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.#ctor(ICOE.CI.SP.CodeBase.Weather)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.Constructor">
+            <summary>Sets the shim of Weather.Weather()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.descriptionGet">
+            <summary>Sets the shim of Weather.get_description()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.descriptionSetString">
+            <summary>Sets the shim of Weather.set_description(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.iconGet">
+            <summary>Sets the shim of Weather.get_icon()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.iconSetString">
+            <summary>Sets the shim of Weather.set_icon(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.AllInstances.descriptionGet">
+            <summary>Sets the shim of Weather.get_description()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.AllInstances.descriptionSetString">
+            <summary>Sets the shim of Weather.set_description(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.AllInstances.iconGet">
+            <summary>Sets the shim of Weather.get_icon()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeather.AllInstances.iconSetString">
+            <summary>Sets the shim of Weather.set_icon(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.WeatherDataLayer</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.#ctor(ICOE.CI.SP.CodeBase.WeatherDataLayer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.Constructor">
+            <summary>Sets the shim of WeatherDataLayer.WeatherDataLayer()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.GetWeatherString">
+            <summary>Sets the shim of WeatherDataLayer.GetWeather(String strCityName)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherDataLayer.AllInstances.GetWeatherString">
+            <summary>Sets the shim of WeatherDataLayer.GetWeather(String strCityName)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo">
+            <summary>Shim type of ICOE.CI.SP.CodeBase.WeatherInfo</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.#ctor(ICOE.CI.SP.CodeBase.WeatherInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.Constructor">
+            <summary>Sets the shim of WeatherInfo.WeatherInfo()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.cityGet">
+            <summary>Sets the shim of WeatherInfo.get_city()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.citySetCity">
+            <summary>Sets the shim of WeatherInfo.set_city(City value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.codGet">
+            <summary>Sets the shim of WeatherInfo.get_cod()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.codSetString">
+            <summary>Sets the shim of WeatherInfo.set_cod(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.listGet">
+            <summary>Sets the shim of WeatherInfo.get_list()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.listSetListOfList">
+            <summary>Sets the shim of WeatherInfo.set_list(List`1&lt;List&gt; value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.messageGet">
+            <summary>Sets the shim of WeatherInfo.get_message()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.messageSetString">
+            <summary>Sets the shim of WeatherInfo.set_message(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.cityGet">
+            <summary>Sets the shim of WeatherInfo.get_city()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.citySetCity">
+            <summary>Sets the shim of WeatherInfo.set_city(City value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.codGet">
+            <summary>Sets the shim of WeatherInfo.get_cod()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.codSetString">
+            <summary>Sets the shim of WeatherInfo.set_cod(String value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.listGet">
+            <summary>Sets the shim of WeatherInfo.get_list()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.listSetListOfList">
+            <summary>Sets the shim of WeatherInfo.set_list(List`1&lt;List&gt; value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.messageGet">
+            <summary>Sets the shim of WeatherInfo.get_message()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.ShimWeatherInfo.AllInstances.messageSetString">
+            <summary>Sets the shim of WeatherInfo.set_message(String value)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubCalc">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.Calc</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCalc.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCalc.InitializeStub">
+            <summary>Initializes a new instance of type StubCalc</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalc.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalc.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalc.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubCalculator">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.Calculator</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCalculator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCalculator.InitializeStub">
+            <summary>Initializes a new instance of type StubCalculator</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalculator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalculator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCalculator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubCity">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.City</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCity.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubCity.InitializeStub">
+            <summary>Initializes a new instance of type StubCity</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCity.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCity.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubCity.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubList">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.List</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubList.InitializeStub">
+            <summary>Initializes a new instance of type StubList</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubTemp">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.Temp</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubTemp.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubTemp.InitializeStub">
+            <summary>Initializes a new instance of type StubTemp</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubTemp.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubTemp.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubTemp.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubWeather">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.Weather</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeather.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeather.InitializeStub">
+            <summary>Initializes a new instance of type StubWeather</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeather.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeather.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeather.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.WeatherDataLayer</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer.InitializeStub">
+            <summary>Initializes a new instance of type StubWeatherDataLayer</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherDataLayer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo">
+            <summary>Stub type of ICOE.CI.SP.CodeBase.WeatherInfo</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubWeatherInfo</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.CodeBase.Fakes.StubWeatherInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart">
+            <summary>Shim type of ICOE.CI.SP.WeatherWebPart.WeatherWebPart</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.#ctor(ICOE.CI.SP.WeatherWebPart.WeatherWebPart)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IAttributeAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IControlBuilderAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IControlDesignerAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IDataBindingsAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IExpressionsAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.INamingContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IParserAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.IUrlResolutionService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.WebControls.ICompositeControlDesignerAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.WebControls.WebParts.IWebActionable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.WebControls.WebParts.IWebEditable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.Web.UI.WebControls.WebParts.IWebPart)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.Constructor">
+            <summary>Sets the shim of WeatherWebPart.WeatherWebPart()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.CreateChildControls">
+            <summary>Sets the shim of WeatherWebPart.CreateChildControls()</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPart.AllInstances.CreateChildControls">
+            <summary>Sets the shim of WeatherWebPart.CreateChildControls()</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl">
+            <summary>Shim type of ICOE.CI.SP.WeatherWebPart.WeatherWebPartUserControl</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.#ctor(ICOE.CI.SP.WeatherWebPart.WeatherWebPartUserControl)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IAttributeAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IControlBuilderAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IControlDesignerAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IDataBindingsAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IExpressionsAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IFilterResolutionService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.INamingContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IParserAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IUrlResolutionService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.Web.UI.IUserControlDesignerAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Constructor">
+            <summary>Sets the shim of WeatherWebPartUserControl.WeatherWebPartUserControl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.GetWeatherInfoObjectEventArgs">
+            <summary>Sets the shim of WeatherWebPartUserControl.GetWeatherInfo(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.Page_LoadObjectEventArgs">
+            <summary>Sets the shim of WeatherWebPartUserControl.Page_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.AllInstances.GetWeatherInfoObjectEventArgs">
+            <summary>Sets the shim of WeatherWebPartUserControl.GetWeatherInfo(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.ShimWeatherWebPartUserControl.AllInstances.Page_LoadObjectEventArgs">
+            <summary>Sets the shim of WeatherWebPartUserControl.Page_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart">
+            <summary>Stub type of ICOE.CI.SP.WeatherWebPart.WeatherWebPart</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AccessKeyGet">
+            <summary>Sets the stub of WebControl.get_AccessKey()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AccessKeySetString">
+            <summary>Sets the stub of WebControl.set_AccessKey(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddAttributesToRender(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Panel.AddAttributesToRender(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddAttributesToRenderHtmlTextWriter">
+            <summary>Sets the stub of Panel.AddAttributesToRender(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddParsedSubObject(System.Object)">
+            <summary>Sets the stub of Control.AddParsedSubObject(Object obj)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddParsedSubObjectObject">
+            <summary>Sets the stub of Control.AddParsedSubObject(Object obj)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddedControl(System.Web.UI.Control,System.Int32)">
+            <summary>Sets the stub of Control.AddedControl(Control control, Int32 index)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AddedControlControlInt32">
+            <summary>Sets the stub of Control.AddedControl(Control control, Int32 index)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowCloseGet">
+            <summary>Sets the stub of WebPart.get_AllowClose()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowCloseSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowClose(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowConnectGet">
+            <summary>Sets the stub of WebPart.get_AllowConnect()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowConnectSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowConnect(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowEditGet">
+            <summary>Sets the stub of WebPart.get_AllowEdit()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowEditSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowEdit(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowHideGet">
+            <summary>Sets the stub of WebPart.get_AllowHide()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowHideSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowHide(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowMinimizeGet">
+            <summary>Sets the stub of WebPart.get_AllowMinimize()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowMinimizeSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowMinimize(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowZoneChangeGet">
+            <summary>Sets the stub of WebPart.get_AllowZoneChange()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowZoneChangeSetBoolean">
+            <summary>Sets the stub of WebPart.set_AllowZoneChange(Boolean value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ApplyStyleSheetSkin(System.Web.UI.Page)">
+            <summary>Sets the stub of Control.ApplyStyleSheetSkin(Page page)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ApplyStyleSheetSkinPage">
+            <summary>Sets the stub of Control.ApplyStyleSheetSkin(Page page)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAccessKey">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AccessKey as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowClose">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowClose as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowConnect">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowConnect as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowEdit">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowEdit as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowHide">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowHide as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowMinimize">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowMinimize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAllowZoneChange">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AllowZoneChange as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToAuthorizationFilter">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.AuthorizationFilter as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToBackImageUrl">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.BackImageUrl as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToBorderColor">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.BorderColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToBorderStyle">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.BorderStyle as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToBorderWidth">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.BorderWidth as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToCatalogIconImageUrl">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.CatalogIconImageUrl as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToChromeState">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ChromeState as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToChromeType">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ChromeType as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToClientIDMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ClientIDMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToCssClass">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.CssClass as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToDefaultButton">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.DefaultButton as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToDescription">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Description as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToDirection">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Direction as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToEnableTheming">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.EnableTheming as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToEnableViewState">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.EnableViewState as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToEnabled">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Enabled as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToExportMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ExportMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToGroupingText">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.GroupingText as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToHeight">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Height as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToHelpMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.HelpMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToHelpUrl">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.HelpUrl as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToHidden">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Hidden as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToHorizontalAlign">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.HorizontalAlign as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToID">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ID as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToImportErrorMessage">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ImportErrorMessage as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToPage">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Page as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToRenderingCompatibility">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.RenderingCompatibility as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToScrollBars">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ScrollBars as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToSkinID">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.SkinID as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToTabIndex">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.TabIndex as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToTitle">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Title as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToTitleIconImageUrl">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.TitleIconImageUrl as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToTitleUrl">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.TitleUrl as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToToolTip">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ToolTip as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToValidateRequestMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ValidateRequestMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToViewStateMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.ViewStateMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToVisible">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Visible as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToWidth">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Width as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AttachBackingFieldToWrap">
+            <summary>Attaches delegates to emulate StubWeatherWebPart.Wrap as a property with a backing field.</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AuthorizationFilterGet">
+            <summary>Sets the stub of WebPart.get_AuthorizationFilter()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AuthorizationFilterSetString">
+            <summary>Sets the stub of WebPart.set_AuthorizationFilter(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackColorGet">
+            <summary>Sets the stub of WebControl.get_BackColor()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackColorSetColor">
+            <summary>Sets the stub of WebControl.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackImageUrlGet">
+            <summary>Sets the stub of Panel.get_BackImageUrl()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackImageUrlSetString">
+            <summary>Sets the stub of Panel.set_BackImageUrl(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderColorGet">
+            <summary>Sets the stub of WebControl.get_BorderColor()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderColorSetColor">
+            <summary>Sets the stub of WebControl.set_BorderColor(Color value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderStyleGet">
+            <summary>Sets the stub of WebControl.get_BorderStyle()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderStyleSetBorderStyle">
+            <summary>Sets the stub of WebControl.set_BorderStyle(BorderStyle value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderWidthGet">
+            <summary>Sets the stub of WebControl.get_BorderWidth()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderWidthSetUnit">
+            <summary>Sets the stub of WebControl.set_BorderWidth(Unit value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CatalogIconImageUrlGet">
+            <summary>Sets the stub of WebPart.get_CatalogIconImageUrl()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CatalogIconImageUrlSetString">
+            <summary>Sets the stub of WebPart.set_CatalogIconImageUrl(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeStateGet">
+            <summary>Sets the stub of WebPart.get_ChromeState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeStateSetPartChromeState">
+            <summary>Sets the stub of WebPart.set_ChromeState(PartChromeState value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeTypeGet">
+            <summary>Sets the stub of WebPart.get_ChromeType()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeTypeSetPartChromeType">
+            <summary>Sets the stub of WebPart.set_ChromeType(PartChromeType value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ClientIDGet">
+            <summary>Sets the stub of Control.get_ClientID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ClientIDModeGet">
+            <summary>Sets the stub of Control.get_ClientIDMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ClientIDModeSetClientIDMode">
+            <summary>Sets the stub of Control.set_ClientIDMode(ClientIDMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ContextGet">
+            <summary>Sets the stub of Control.get_Context()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ControlsGet">
+            <summary>Sets the stub of Part.get_Controls()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateChildControls">
+            <summary>Sets the stub of WeatherWebPart.CreateChildControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateChildControls01">
+            <summary>Sets the stub of WeatherWebPart.CreateChildControls()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateControlCollection">
+            <summary>Sets the stub of Control.CreateControlCollection()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateControlCollection01">
+            <summary>Sets the stub of Control.CreateControlCollection()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateControlStyle">
+            <summary>Sets the stub of Panel.CreateControlStyle()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateControlStyle01">
+            <summary>Sets the stub of Panel.CreateControlStyle()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateEditorParts">
+            <summary>Sets the stub of WebPart.CreateEditorParts()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CreateEditorParts01">
+            <summary>Sets the stub of WebPart.CreateEditorParts()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CssClassGet">
+            <summary>Sets the stub of WebControl.get_CssClass()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CssClassSetString">
+            <summary>Sets the stub of WebControl.set_CssClass(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBind">
+            <summary>Sets the stub of Part.DataBind()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBind(System.Boolean)">
+            <summary>Sets the stub of Control.DataBind(Boolean raiseOnDataBinding)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBind01">
+            <summary>Sets the stub of Part.DataBind()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBindBoolean">
+            <summary>Sets the stub of Control.DataBind(Boolean raiseOnDataBinding)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBindChildren">
+            <summary>Sets the stub of Control.DataBindChildren()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DataBindChildren01">
+            <summary>Sets the stub of Control.DataBindChildren()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DefaultButtonGet">
+            <summary>Sets the stub of Panel.get_DefaultButton()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DefaultButtonSetString">
+            <summary>Sets the stub of Panel.set_DefaultButton(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DescriptionGet">
+            <summary>Sets the stub of WebPart.get_Description()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DescriptionSetString">
+            <summary>Sets the stub of WebPart.set_Description(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DirectionGet">
+            <summary>Sets the stub of WebPart.get_Direction()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DirectionSetContentDirection">
+            <summary>Sets the stub of WebPart.set_Direction(ContentDirection value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Dispose">
+            <summary>Sets the stub of Control.Dispose()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Dispose01">
+            <summary>Sets the stub of Control.Dispose()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableThemingGet">
+            <summary>Sets the stub of WebControl.get_EnableTheming()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableThemingSetBoolean">
+            <summary>Sets the stub of WebControl.set_EnableTheming(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableViewStateGet">
+            <summary>Sets the stub of Control.get_EnableViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableViewStateSetBoolean">
+            <summary>Sets the stub of Control.set_EnableViewState(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnabledGet">
+            <summary>Sets the stub of WebControl.get_Enabled()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnabledSetBoolean">
+            <summary>Sets the stub of WebControl.set_Enabled(Boolean value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnsureChildControls">
+            <summary>Sets the stub of Control.EnsureChildControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnsureChildControls01">
+            <summary>Sets the stub of Control.EnsureChildControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ExportModeGet">
+            <summary>Sets the stub of WebPart.get_ExportMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ExportModeSetWebPartExportMode">
+            <summary>Sets the stub of WebPart.set_ExportMode(WebPartExportMode value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.FindControl(System.String)">
+            <summary>Sets the stub of Control.FindControl(String id)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.FindControl(System.String,System.Int32)">
+            <summary>Sets the stub of Control.FindControl(String id, Int32 pathOffset)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.FindControlString">
+            <summary>Sets the stub of Control.FindControl(String id)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.FindControlStringInt32">
+            <summary>Sets the stub of Control.FindControl(String id, Int32 pathOffset)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Focus">
+            <summary>Sets the stub of Control.Focus()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Focus01">
+            <summary>Sets the stub of Control.Focus()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.FontGet">
+            <summary>Sets the stub of WebControl.get_Font()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ForeColorGet">
+            <summary>Sets the stub of WebControl.get_ForeColor()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ForeColorSetColor">
+            <summary>Sets the stub of WebControl.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.GetDesignModeState">
+            <summary>Sets the stub of Control.GetDesignModeState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.GetDesignModeState01">
+            <summary>Sets the stub of Control.GetDesignModeState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.GroupingTextGet">
+            <summary>Sets the stub of Panel.get_GroupingText()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.GroupingTextSetString">
+            <summary>Sets the stub of Panel.set_GroupingText(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HasControls">
+            <summary>Sets the stub of Control.HasControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HasControls01">
+            <summary>Sets the stub of Control.HasControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HeightGet">
+            <summary>Sets the stub of WebPart.get_Height()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HeightSetUnit">
+            <summary>Sets the stub of WebPart.set_Height(Unit value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpModeGet">
+            <summary>Sets the stub of WebPart.get_HelpMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpModeSetWebPartHelpMode">
+            <summary>Sets the stub of WebPart.set_HelpMode(WebPartHelpMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpUrlGet">
+            <summary>Sets the stub of WebPart.get_HelpUrl()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpUrlSetString">
+            <summary>Sets the stub of WebPart.set_HelpUrl(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HiddenGet">
+            <summary>Sets the stub of WebPart.get_Hidden()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HiddenSetBoolean">
+            <summary>Sets the stub of WebPart.set_Hidden(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HorizontalAlignGet">
+            <summary>Sets the stub of Panel.get_HorizontalAlign()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HorizontalAlignSetHorizontalAlign">
+            <summary>Sets the stub of Panel.set_HorizontalAlign(HorizontalAlign value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.IDGet">
+            <summary>Sets the stub of Control.get_ID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.IDSetString">
+            <summary>Sets the stub of Control.set_ID(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ImportErrorMessageGet">
+            <summary>Sets the stub of WebPart.get_ImportErrorMessage()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ImportErrorMessageSetString">
+            <summary>Sets the stub of WebPart.set_ImportErrorMessage(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.InitializeStub">
+            <summary>Initializes a new instance of type StubWeatherWebPart</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.LoadControlState(System.Object)">
+            <summary>Sets the stub of Control.LoadControlState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.LoadControlStateObject">
+            <summary>Sets the stub of Control.LoadControlState(Object savedState)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.LoadViewState(System.Object)">
+            <summary>Sets the stub of WebControl.LoadViewState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.LoadViewStateObject">
+            <summary>Sets the stub of WebControl.LoadViewState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.NamingContainerGet">
+            <summary>Sets the stub of Control.get_NamingContainer()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnBubbleEvent(System.Object,System.EventArgs)">
+            <summary>Sets the stub of Control.OnBubbleEvent(Object source, EventArgs args)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnBubbleEventObjectEventArgs">
+            <summary>Sets the stub of Control.OnBubbleEvent(Object source, EventArgs args)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnClosing(System.EventArgs)">
+            <summary>Sets the stub of WebPart.OnClosing(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnClosingEventArgs">
+            <summary>Sets the stub of WebPart.OnClosing(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnConnectModeChanged(System.EventArgs)">
+            <summary>Sets the stub of WebPart.OnConnectModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnConnectModeChangedEventArgs">
+            <summary>Sets the stub of WebPart.OnConnectModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnDataBinding(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDataBinding(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnDataBindingEventArgs">
+            <summary>Sets the stub of Control.OnDataBinding(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnDeleting(System.EventArgs)">
+            <summary>Sets the stub of WebPart.OnDeleting(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnDeletingEventArgs">
+            <summary>Sets the stub of WebPart.OnDeleting(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnEditModeChanged(System.EventArgs)">
+            <summary>Sets the stub of WebPart.OnEditModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnEditModeChangedEventArgs">
+            <summary>Sets the stub of WebPart.OnEditModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnInit(System.EventArgs)">
+            <summary>Sets the stub of Control.OnInit(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnInitEventArgs">
+            <summary>Sets the stub of Control.OnInit(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnLoadEventArgs">
+            <summary>Sets the stub of Control.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnPreRender(System.EventArgs)">
+            <summary>Sets the stub of Control.OnPreRender(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnPreRenderEventArgs">
+            <summary>Sets the stub of Control.OnPreRender(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnUnload(System.EventArgs)">
+            <summary>Sets the stub of Control.OnUnload(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.OnUnloadEventArgs">
+            <summary>Sets the stub of Control.OnUnload(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.PageGet">
+            <summary>Sets the stub of Control.get_Page()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.PageSetPage">
+            <summary>Sets the stub of Control.set_Page(Page value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ParentGet">
+            <summary>Sets the stub of Control.get_Parent()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RemovedControl(System.Web.UI.Control)">
+            <summary>Sets the stub of Control.RemovedControl(Control control)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RemovedControlControl">
+            <summary>Sets the stub of Control.RemovedControl(Control control)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of WebControl.Render(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderBeginTag(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Panel.RenderBeginTag(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderBeginTagHtmlTextWriter">
+            <summary>Sets the stub of Panel.RenderBeginTag(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderChildren(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Control.RenderChildren(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderChildrenHtmlTextWriter">
+            <summary>Sets the stub of Control.RenderChildren(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of WebControl.RenderContents(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderContentsHtmlTextWriter">
+            <summary>Sets the stub of WebControl.RenderContents(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderControl(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Control.RenderControl(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderControlHtmlTextWriter">
+            <summary>Sets the stub of Control.RenderControl(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderEndTag(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Panel.RenderEndTag(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderEndTagHtmlTextWriter">
+            <summary>Sets the stub of Panel.RenderEndTag(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderHtmlTextWriter">
+            <summary>Sets the stub of WebControl.Render(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderingCompatibilityGet">
+            <summary>Sets the stub of Control.get_RenderingCompatibility()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderingCompatibilitySetVersion">
+            <summary>Sets the stub of Control.set_RenderingCompatibility(Version value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ResolveAdapter">
+            <summary>Sets the stub of Control.ResolveAdapter()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ResolveAdapter01">
+            <summary>Sets the stub of Control.ResolveAdapter()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SaveControlState">
+            <summary>Sets the stub of Control.SaveControlState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SaveControlState01">
+            <summary>Sets the stub of Control.SaveControlState()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SaveViewState">
+            <summary>Sets the stub of WebControl.SaveViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SaveViewState01">
+            <summary>Sets the stub of WebControl.SaveViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ScrollBarsGet">
+            <summary>Sets the stub of Panel.get_ScrollBars()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ScrollBarsSetScrollBars">
+            <summary>Sets the stub of Panel.set_ScrollBars(ScrollBars value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SetDesignModeState(System.Collections.IDictionary)">
+            <summary>Sets the stub of Control.SetDesignModeState(IDictionary data)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SetDesignModeStateIDictionary">
+            <summary>Sets the stub of Control.SetDesignModeState(IDictionary data)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SkinIDGet">
+            <summary>Sets the stub of WebControl.get_SkinID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SkinIDSetString">
+            <summary>Sets the stub of WebControl.set_SkinID(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SubtitleGet">
+            <summary>Sets the stub of WebPart.get_Subtitle()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SupportsDisabledAttributeGet">
+            <summary>Sets the stub of Panel.get_SupportsDisabledAttribute()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TabIndexGet">
+            <summary>Sets the stub of WebControl.get_TabIndex()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TabIndexSetInt16">
+            <summary>Sets the stub of WebControl.set_TabIndex(Int16 value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TagKeyGet">
+            <summary>Sets the stub of WebControl.get_TagKey()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TagNameGet">
+            <summary>Sets the stub of WebControl.get_TagName()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TemplateSourceDirectoryGet">
+            <summary>Sets the stub of Control.get_TemplateSourceDirectory()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleGet">
+            <summary>Sets the stub of WebPart.get_Title()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleIconImageUrlGet">
+            <summary>Sets the stub of WebPart.get_TitleIconImageUrl()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleIconImageUrlSetString">
+            <summary>Sets the stub of WebPart.set_TitleIconImageUrl(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleSetString">
+            <summary>Sets the stub of WebPart.set_Title(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleUrlGet">
+            <summary>Sets the stub of WebPart.get_TitleUrl()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleUrlSetString">
+            <summary>Sets the stub of WebPart.set_TitleUrl(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ToolTipGet">
+            <summary>Sets the stub of WebControl.get_ToolTip()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ToolTipSetString">
+            <summary>Sets the stub of WebControl.set_ToolTip(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TrackViewState">
+            <summary>Sets the stub of WebPart.TrackViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TrackViewState01">
+            <summary>Sets the stub of WebPart.TrackViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.UniqueIDGet">
+            <summary>Sets the stub of Control.get_UniqueID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ValidateRequestModeGet">
+            <summary>Sets the stub of Control.get_ValidateRequestMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ValidateRequestModeSetValidateRequestMode">
+            <summary>Sets the stub of Control.set_ValidateRequestMode(ValidateRequestMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.VerbsGet">
+            <summary>Sets the stub of WebPart.get_Verbs()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateGet">
+            <summary>Sets the stub of Control.get_ViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateIgnoresCaseGet">
+            <summary>Sets the stub of Control.get_ViewStateIgnoresCase()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateModeGet">
+            <summary>Sets the stub of Control.get_ViewStateMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateModeSetViewStateMode">
+            <summary>Sets the stub of Control.set_ViewStateMode(ViewStateMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.VisibleGet">
+            <summary>Sets the stub of Control.get_Visible()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.VisibleSetBoolean">
+            <summary>Sets the stub of Control.set_Visible(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WebBrowsableObjectGet">
+            <summary>Sets the stub of WebPart.get_WebBrowsableObject()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WidthGet">
+            <summary>Sets the stub of WebPart.get_Width()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WidthSetUnit">
+            <summary>Sets the stub of WebPart.set_Width(Unit value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WrapGet">
+            <summary>Sets the stub of Panel.get_Wrap()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WrapSetBoolean">
+            <summary>Sets the stub of Panel.set_Wrap(Boolean value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AccessKey">
+            <summary>Sets the stub of WebControl.get_AccessKey()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowClose">
+            <summary>Sets the stub of WebPart.get_AllowClose()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowConnect">
+            <summary>Sets the stub of WebPart.get_AllowConnect()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowEdit">
+            <summary>Sets the stub of WebPart.get_AllowEdit()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowHide">
+            <summary>Sets the stub of WebPart.get_AllowHide()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowMinimize">
+            <summary>Sets the stub of WebPart.get_AllowMinimize()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AllowZoneChange">
+            <summary>Sets the stub of WebPart.get_AllowZoneChange()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.AuthorizationFilter">
+            <summary>Sets the stub of WebPart.get_AuthorizationFilter()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackColor">
+            <summary>Sets the stub of WebControl.get_BackColor()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BackImageUrl">
+            <summary>Sets the stub of Panel.get_BackImageUrl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderColor">
+            <summary>Sets the stub of WebControl.get_BorderColor()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderStyle">
+            <summary>Sets the stub of WebControl.get_BorderStyle()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.BorderWidth">
+            <summary>Sets the stub of WebControl.get_BorderWidth()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CatalogIconImageUrl">
+            <summary>Sets the stub of WebPart.get_CatalogIconImageUrl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeState">
+            <summary>Sets the stub of WebPart.get_ChromeState()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ChromeType">
+            <summary>Sets the stub of WebPart.get_ChromeType()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ClientID">
+            <summary>Sets the stub of Control.get_ClientID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ClientIDMode">
+            <summary>Sets the stub of Control.get_ClientIDMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Context">
+            <summary>Sets the stub of Control.get_Context()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Controls">
+            <summary>Sets the stub of Part.get_Controls()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.CssClass">
+            <summary>Sets the stub of WebControl.get_CssClass()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.DefaultButton">
+            <summary>Sets the stub of Panel.get_DefaultButton()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Description">
+            <summary>Sets the stub of WebPart.get_Description()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Direction">
+            <summary>Sets the stub of WebPart.get_Direction()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableTheming">
+            <summary>Sets the stub of WebControl.get_EnableTheming()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.EnableViewState">
+            <summary>Sets the stub of Control.get_EnableViewState()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Enabled">
+            <summary>Sets the stub of WebControl.get_Enabled()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ExportMode">
+            <summary>Sets the stub of WebPart.get_ExportMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Font">
+            <summary>Sets the stub of WebControl.get_Font()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ForeColor">
+            <summary>Sets the stub of WebControl.get_ForeColor()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.GroupingText">
+            <summary>Sets the stub of Panel.get_GroupingText()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Height">
+            <summary>Sets the stub of WebPart.get_Height()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpMode">
+            <summary>Sets the stub of WebPart.get_HelpMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HelpUrl">
+            <summary>Sets the stub of WebPart.get_HelpUrl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Hidden">
+            <summary>Sets the stub of WebPart.get_Hidden()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.HorizontalAlign">
+            <summary>Sets the stub of Panel.get_HorizontalAlign()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ID">
+            <summary>Sets the stub of Control.get_ID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ImportErrorMessage">
+            <summary>Sets the stub of WebPart.get_ImportErrorMessage()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.NamingContainer">
+            <summary>Sets the stub of Control.get_NamingContainer()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Page">
+            <summary>Sets the stub of Control.get_Page()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Parent">
+            <summary>Sets the stub of Control.get_Parent()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.RenderingCompatibility">
+            <summary>Sets the stub of Control.get_RenderingCompatibility()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ScrollBars">
+            <summary>Sets the stub of Panel.get_ScrollBars()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SkinID">
+            <summary>Sets the stub of WebControl.get_SkinID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Subtitle">
+            <summary>Sets the stub of WebPart.get_Subtitle()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.SupportsDisabledAttribute">
+            <summary>Sets the stub of Panel.get_SupportsDisabledAttribute()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TabIndex">
+            <summary>Sets the stub of WebControl.get_TabIndex()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TagKey">
+            <summary>Sets the stub of WebControl.get_TagKey()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TagName">
+            <summary>Sets the stub of WebControl.get_TagName()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TemplateSourceDirectory">
+            <summary>Sets the stub of Control.get_TemplateSourceDirectory()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Title">
+            <summary>Sets the stub of WebPart.get_Title()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleIconImageUrl">
+            <summary>Sets the stub of WebPart.get_TitleIconImageUrl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.TitleUrl">
+            <summary>Sets the stub of WebPart.get_TitleUrl()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ToolTip">
+            <summary>Sets the stub of WebControl.get_ToolTip()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.UniqueID">
+            <summary>Sets the stub of Control.get_UniqueID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ValidateRequestMode">
+            <summary>Sets the stub of Control.get_ValidateRequestMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Verbs">
+            <summary>Sets the stub of WebPart.get_Verbs()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewState">
+            <summary>Sets the stub of Control.get_ViewState()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateIgnoresCase">
+            <summary>Sets the stub of Control.get_ViewStateIgnoresCase()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.ViewStateMode">
+            <summary>Sets the stub of Control.get_ViewStateMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Visible">
+            <summary>Sets the stub of Control.get_Visible()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.WebBrowsableObject">
+            <summary>Sets the stub of WebPart.get_WebBrowsableObject()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Width">
+            <summary>Sets the stub of WebPart.get_Width()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPart.Wrap">
+            <summary>Sets the stub of Panel.get_Wrap()</summary>
+        </member>
+        <member name="T:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl">
+            <summary>Stub type of ICOE.CI.SP.WeatherWebPart.WeatherWebPartUserControl</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AddParsedSubObject(System.Object)">
+            <summary>Sets the stub of Control.AddParsedSubObject(Object obj)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AddParsedSubObjectObject">
+            <summary>Sets the stub of Control.AddParsedSubObject(Object obj)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AddedControl(System.Web.UI.Control,System.Int32)">
+            <summary>Sets the stub of Control.AddedControl(Control control, Int32 index)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AddedControlControlInt32">
+            <summary>Sets the stub of Control.AddedControl(Control control, Int32 index)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ApplyStyleSheetSkin(System.Web.UI.Page)">
+            <summary>Sets the stub of Control.ApplyStyleSheetSkin(Page page)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ApplyStyleSheetSkinPage">
+            <summary>Sets the stub of Control.ApplyStyleSheetSkin(Page page)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToAutoHandlers">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.AutoHandlers as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToClientIDMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.ClientIDMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToEnableTheming">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.EnableTheming as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToEnableViewState">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.EnableViewState as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToID">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.ID as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToPage">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.Page as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToRenderingCompatibility">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.RenderingCompatibility as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToSkinID">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.SkinID as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToValidateRequestMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.ValidateRequestMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToViewStateMode">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.ViewStateMode as a property with a backing field.</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AttachBackingFieldToVisible">
+            <summary>Attaches delegates to emulate StubWeatherWebPartUserControl.Visible as a property with a backing field.</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AutoHandlersGet">
+            <summary>Sets the stub of TemplateControl.get_AutoHandlers()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AutoHandlersSetInt32">
+            <summary>Sets the stub of TemplateControl.set_AutoHandlers(Int32 value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ClientIDGet">
+            <summary>Sets the stub of Control.get_ClientID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ClientIDModeGet">
+            <summary>Sets the stub of Control.get_ClientIDMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ClientIDModeSetClientIDMode">
+            <summary>Sets the stub of Control.set_ClientIDMode(ClientIDMode value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Construct">
+            <summary>Sets the stub of TemplateControl.Construct()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Construct01">
+            <summary>Sets the stub of TemplateControl.Construct()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ContextGet">
+            <summary>Sets the stub of Control.get_Context()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ControlsGet">
+            <summary>Sets the stub of Control.get_Controls()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.CreateChildControls">
+            <summary>Sets the stub of Control.CreateChildControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.CreateChildControls01">
+            <summary>Sets the stub of Control.CreateChildControls()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.CreateControlCollection">
+            <summary>Sets the stub of Control.CreateControlCollection()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.CreateControlCollection01">
+            <summary>Sets the stub of Control.CreateControlCollection()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBind">
+            <summary>Sets the stub of Control.DataBind()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBind(System.Boolean)">
+            <summary>Sets the stub of Control.DataBind(Boolean raiseOnDataBinding)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBind01">
+            <summary>Sets the stub of Control.DataBind()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBindBoolean">
+            <summary>Sets the stub of Control.DataBind(Boolean raiseOnDataBinding)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBindChildren">
+            <summary>Sets the stub of Control.DataBindChildren()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.DataBindChildren01">
+            <summary>Sets the stub of Control.DataBindChildren()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Dispose">
+            <summary>Sets the stub of Control.Dispose()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Dispose01">
+            <summary>Sets the stub of Control.Dispose()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableThemingGet">
+            <summary>Sets the stub of TemplateControl.get_EnableTheming()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableThemingSetBoolean">
+            <summary>Sets the stub of TemplateControl.set_EnableTheming(Boolean value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableViewStateGet">
+            <summary>Sets the stub of Control.get_EnableViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableViewStateSetBoolean">
+            <summary>Sets the stub of Control.set_EnableViewState(Boolean value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnsureChildControls">
+            <summary>Sets the stub of Control.EnsureChildControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnsureChildControls01">
+            <summary>Sets the stub of Control.EnsureChildControls()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FindControl(System.String)">
+            <summary>Sets the stub of Control.FindControl(String id)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FindControl(System.String,System.Int32)">
+            <summary>Sets the stub of Control.FindControl(String id, Int32 pathOffset)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FindControlString">
+            <summary>Sets the stub of Control.FindControl(String id)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FindControlStringInt32">
+            <summary>Sets the stub of Control.FindControl(String id, Int32 pathOffset)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Focus">
+            <summary>Sets the stub of Control.Focus()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Focus01">
+            <summary>Sets the stub of Control.Focus()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FrameworkInitialize">
+            <summary>Sets the stub of TemplateControl.FrameworkInitialize()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.FrameworkInitialize01">
+            <summary>Sets the stub of TemplateControl.FrameworkInitialize()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.GetDesignModeState">
+            <summary>Sets the stub of Control.GetDesignModeState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.GetDesignModeState01">
+            <summary>Sets the stub of Control.GetDesignModeState()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.HasControls">
+            <summary>Sets the stub of Control.HasControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.HasControls01">
+            <summary>Sets the stub of Control.HasControls()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.IDGet">
+            <summary>Sets the stub of Control.get_ID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.IDSetString">
+            <summary>Sets the stub of Control.set_ID(String value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.InitializeStub">
+            <summary>Initializes a new instance of type StubWeatherWebPartUserControl</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.LoadControlState(System.Object)">
+            <summary>Sets the stub of Control.LoadControlState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.LoadControlStateObject">
+            <summary>Sets the stub of Control.LoadControlState(Object savedState)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.LoadViewState(System.Object)">
+            <summary>Sets the stub of UserControl.LoadViewState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.LoadViewStateObject">
+            <summary>Sets the stub of UserControl.LoadViewState(Object savedState)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.NamingContainerGet">
+            <summary>Sets the stub of Control.get_NamingContainer()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnAbortTransaction(System.EventArgs)">
+            <summary>Sets the stub of TemplateControl.OnAbortTransaction(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnAbortTransactionEventArgs">
+            <summary>Sets the stub of TemplateControl.OnAbortTransaction(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnBubbleEvent(System.Object,System.EventArgs)">
+            <summary>Sets the stub of Control.OnBubbleEvent(Object source, EventArgs args)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnBubbleEventObjectEventArgs">
+            <summary>Sets the stub of Control.OnBubbleEvent(Object source, EventArgs args)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnCommitTransaction(System.EventArgs)">
+            <summary>Sets the stub of TemplateControl.OnCommitTransaction(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnCommitTransactionEventArgs">
+            <summary>Sets the stub of TemplateControl.OnCommitTransaction(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnDataBinding(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDataBinding(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnDataBindingEventArgs">
+            <summary>Sets the stub of Control.OnDataBinding(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnError(System.EventArgs)">
+            <summary>Sets the stub of TemplateControl.OnError(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnErrorEventArgs">
+            <summary>Sets the stub of TemplateControl.OnError(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnInit(System.EventArgs)">
+            <summary>Sets the stub of UserControl.OnInit(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnInitEventArgs">
+            <summary>Sets the stub of UserControl.OnInit(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnLoadEventArgs">
+            <summary>Sets the stub of Control.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnPreRender(System.EventArgs)">
+            <summary>Sets the stub of Control.OnPreRender(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnPreRenderEventArgs">
+            <summary>Sets the stub of Control.OnPreRender(EventArgs e)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnUnload(System.EventArgs)">
+            <summary>Sets the stub of Control.OnUnload(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.OnUnloadEventArgs">
+            <summary>Sets the stub of Control.OnUnload(EventArgs e)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.PageGet">
+            <summary>Sets the stub of Control.get_Page()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.PageSetPage">
+            <summary>Sets the stub of Control.set_Page(Page value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ParentGet">
+            <summary>Sets the stub of Control.get_Parent()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RemovedControl(System.Web.UI.Control)">
+            <summary>Sets the stub of Control.RemovedControl(Control control)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RemovedControlControl">
+            <summary>Sets the stub of Control.RemovedControl(Control control)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Control.Render(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderChildren(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Control.RenderChildren(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderChildrenHtmlTextWriter">
+            <summary>Sets the stub of Control.RenderChildren(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderControl(System.Web.UI.HtmlTextWriter)">
+            <summary>Sets the stub of Control.RenderControl(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderControlHtmlTextWriter">
+            <summary>Sets the stub of Control.RenderControl(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderHtmlTextWriter">
+            <summary>Sets the stub of Control.Render(HtmlTextWriter writer)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderingCompatibilityGet">
+            <summary>Sets the stub of Control.get_RenderingCompatibility()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderingCompatibilitySetVersion">
+            <summary>Sets the stub of Control.set_RenderingCompatibility(Version value)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ResolveAdapter">
+            <summary>Sets the stub of Control.ResolveAdapter()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ResolveAdapter01">
+            <summary>Sets the stub of Control.ResolveAdapter()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SaveControlState">
+            <summary>Sets the stub of Control.SaveControlState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SaveControlState01">
+            <summary>Sets the stub of Control.SaveControlState()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SaveViewState">
+            <summary>Sets the stub of UserControl.SaveViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SaveViewState01">
+            <summary>Sets the stub of UserControl.SaveViewState()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SetDesignModeState(System.Collections.IDictionary)">
+            <summary>Sets the stub of Control.SetDesignModeState(IDictionary data)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SetDesignModeStateIDictionary">
+            <summary>Sets the stub of Control.SetDesignModeState(IDictionary data)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SkinIDGet">
+            <summary>Sets the stub of Control.get_SkinID()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SkinIDSetString">
+            <summary>Sets the stub of Control.set_SkinID(String value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SupportAutoEventsGet">
+            <summary>Sets the stub of TemplateControl.get_SupportAutoEvents()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TemplateSourceDirectoryGet">
+            <summary>Sets the stub of Control.get_TemplateSourceDirectory()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TestDeviceFilter(System.String)">
+            <summary>Sets the stub of TemplateControl.TestDeviceFilter(String filterName)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TestDeviceFilterString">
+            <summary>Sets the stub of TemplateControl.TestDeviceFilter(String filterName)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TrackViewState">
+            <summary>Sets the stub of Control.TrackViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TrackViewState01">
+            <summary>Sets the stub of Control.TrackViewState()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TryUpdateModel``1(``0)">
+            <summary>Sets the stub of UserControl.TryUpdateModel(!!0 model)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TryUpdateModel``1(``0,System.Web.ModelBinding.IValueProvider)">
+            <summary>Sets the stub of UserControl.TryUpdateModel(!!0 model, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TryUpdateModelOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Boolean})">
+            <summary>Sets stubs of TryUpdateModel(!!0 model)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TryUpdateModelOf1M0IValueProvider``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Web.ModelBinding.IValueProvider,System.Boolean})">
+            <summary>Sets stubs of TryUpdateModel(!!0 model, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UniqueIDGet">
+            <summary>Sets the stub of Control.get_UniqueID()</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UpdateModel``1(``0)">
+            <summary>Sets the stub of UserControl.UpdateModel(!!0 model)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UpdateModel``1(``0,System.Web.ModelBinding.IValueProvider)">
+            <summary>Sets the stub of UserControl.UpdateModel(!!0 model, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UpdateModelOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of UpdateModel(!!0 model)</summary>
+        </member>
+        <member name="M:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UpdateModelOf1M0IValueProvider``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Web.ModelBinding.IValueProvider})">
+            <summary>Sets stubs of UpdateModel(!!0 model, IValueProvider valueProvider)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ValidateRequestModeGet">
+            <summary>Sets the stub of Control.get_ValidateRequestMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ValidateRequestModeSetValidateRequestMode">
+            <summary>Sets the stub of Control.set_ValidateRequestMode(ValidateRequestMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateGet">
+            <summary>Sets the stub of Control.get_ViewState()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateIgnoresCaseGet">
+            <summary>Sets the stub of Control.get_ViewStateIgnoresCase()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateModeGet">
+            <summary>Sets the stub of Control.get_ViewStateMode()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateModeSetViewStateMode">
+            <summary>Sets the stub of Control.set_ViewStateMode(ViewStateMode value)</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.VisibleGet">
+            <summary>Sets the stub of Control.get_Visible()</summary>
+        </member>
+        <member name="F:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.VisibleSetBoolean">
+            <summary>Sets the stub of Control.set_Visible(Boolean value)</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.AutoHandlers">
+            <summary>Sets the stub of TemplateControl.get_AutoHandlers()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ClientID">
+            <summary>Sets the stub of Control.get_ClientID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ClientIDMode">
+            <summary>Sets the stub of Control.get_ClientIDMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Context">
+            <summary>Sets the stub of Control.get_Context()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Controls">
+            <summary>Sets the stub of Control.get_Controls()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableTheming">
+            <summary>Sets the stub of TemplateControl.get_EnableTheming()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.EnableViewState">
+            <summary>Sets the stub of Control.get_EnableViewState()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ID">
+            <summary>Sets the stub of Control.get_ID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.NamingContainer">
+            <summary>Sets the stub of Control.get_NamingContainer()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Page">
+            <summary>Sets the stub of Control.get_Page()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Parent">
+            <summary>Sets the stub of Control.get_Parent()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.RenderingCompatibility">
+            <summary>Sets the stub of Control.get_RenderingCompatibility()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SkinID">
+            <summary>Sets the stub of Control.get_SkinID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.SupportAutoEvents">
+            <summary>Sets the stub of TemplateControl.get_SupportAutoEvents()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.TemplateSourceDirectory">
+            <summary>Sets the stub of Control.get_TemplateSourceDirectory()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.UniqueID">
+            <summary>Sets the stub of Control.get_UniqueID()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ValidateRequestMode">
+            <summary>Sets the stub of Control.get_ValidateRequestMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewState">
+            <summary>Sets the stub of Control.get_ViewState()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateIgnoresCase">
+            <summary>Sets the stub of Control.get_ViewStateIgnoresCase()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.ViewStateMode">
+            <summary>Sets the stub of Control.get_ViewStateMode()</summary>
+        </member>
+        <member name="P:ICOE.CI.SP.WeatherWebPart.Fakes.StubWeatherWebPartUserControl.Visible">
+            <summary>Sets the stub of Control.get_Visible()</summary>
+        </member>
+    </members>
+</doc>

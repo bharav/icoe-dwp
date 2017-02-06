@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8CB5BF6-AC0F-4F65-9ECE-86B173375264}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ICOE.CI.SP</RootNamespace>
+    <AssemblyName>ICOE.CI.SP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeBase\Calculator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CodeBase\WeatherDataLayer.cs" />
+    <Compile Include="WeatherWebPart\WeatherWebPart.cs" />
+    <Compile Include="WeatherWebPart\WeatherWebPartUserControl.ascx.cs">
+      <DependentUpon>WeatherWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeatherWebPart\WeatherWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>WeatherWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DeploymentScripts\WSPOperations.ps1" />
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{8b80f42f-ca33-455a-a6f6-450f526ed48a}</FeatureId>
+    </None>
+    <None Include="Features\GlobalList\GlobalList.feature">
+      <FeatureId>{1a978202-8925-4d8a-ba06-ecdc16c1ddae}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="List Definition\GlobalSettings\GlobalSettingsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e22a730a-3b81-4416-8007-8a2f672c36e2}</SharePointProjectItemId>
+    </None>
+    <None Include="List Definition\GlobalSettings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c1b5c73-7252-405c-bb7d-e3c9606a6f21}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{afac5a61-3ced-4bd6-a905-c05ab765a1cd}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="WeatherWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c8053d9a-1fef-49f5-b2eb-99b535871403}</SharePointProjectItemId>
+    </None>
+    <None Include="WeatherWebPart\WeatherWebPart.webpart" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\GlobalList\GlobalList.Template.xml">
+      <DependentUpon>GlobalList.feature</DependentUpon>
+    </Content>
+    <Content Include="JS\App.js" />
+    <Content Include="List Definition\GlobalSettings\Elements.xml" />
+    <Content Include="List Definition\GlobalSettings\GlobalSettingsInstance\Elements.xml" />
+    <Content Include="List Definition\GlobalSettings\Schema.xml" />
+    <Content Include="WeatherWebPart\Elements.xml" />
+    <Content Include="WeatherWebPart\WeatherWebPartUserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

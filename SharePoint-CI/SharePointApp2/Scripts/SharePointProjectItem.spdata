@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="Src\App.js" Target="Scripts\Src\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\multiply.js" Target="Scripts\lib\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\square.js" Target="Scripts\lib\" Type="ElementFile" />
+    <ProjectItemFile Source="spec\lib\multiply-spec.js" Target="Scripts\spec\lib\" Type="ElementFile" />
+    <ProjectItemFile Source="spec\lib\square-spec.js" Target="Scripts\spec\lib\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.zweatherfeed.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\weather.js" Target="Scripts\lib\" Type="ElementFile" />
+    <ProjectItemFile Source="spec\lib\weather-spec.js" Target="Scripts\spec\lib\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

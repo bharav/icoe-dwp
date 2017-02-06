@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\Src\App.js" Url="Scripts/Src/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\multiply.js" Url="Scripts/lib/multiply.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\square.js" Url="Scripts/lib/square.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\spec\lib\multiply-spec.js" Url="Scripts/spec/lib/multiply-spec.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\spec\lib\square-spec.js" Url="Scripts/spec/lib/square-spec.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.zweatherfeed.js" Url="Scripts/jquery.zweatherfeed.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\weather.js" Url="Scripts/lib/weather.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\spec\lib\weather-spec.js" Url="Scripts/spec/lib/weather-spec.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

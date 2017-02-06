@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="DisplayWeatherWPUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="DisplayWeatherWP\" Type="ElementManifest" />
+    <ProjectItemFile Source="DisplayWeatherWP.webpart" Target="DisplayWeatherWP\" Type="ElementFile" />
+    <ProjectItemFile Source="DisplayWeatherWPUserControl.ascx" Target="CONTROLTEMPLATES\ICOE.CI.SP\DisplayWeatherWP\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ICOE.CI.SP.DisplayWeatherWP" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
